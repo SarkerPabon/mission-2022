@@ -15,6 +15,11 @@ font-family: 'Yeseva One', cursive; */
 }
 
 /* Reusable */
+
+img {
+	width: 100%;
+}
+
 .mission-color-light {
 	color: #ffad5a;
 }
@@ -73,4 +78,52 @@ font-family: 'Yeseva One', cursive; */
 	width: 60%;
 	display: block;
 	margin: 0 auto;
+}
+
+/* My Mission */
+
+#my-mission h2 {
+	font-family: inherit;
+	font-weight: bold;
+	font-size: 48px;
+	line-height: 70px;
+	color: #13103a;
+}
+
+.mission-item {
+	border: 1px solid red;
+	margin: 10px;
+	padding: 20px;
+	border-radius: 10px;
+}
+
+.mission-item img {
+	width: 45%;
+}
+
+.mission-item h3 {
+	font-family: inherit;
+	font-weight: 600;
+	color: #000;
+	text-align: left;
+	margin-bottom: 15px;
+}
+
+.mission-item p {
+	padding-top: 10px;
+	text-align: left;
+	font-size: 16px;
+	color: #424242;
+}
+
+.mission-item__one {
+	background: #edf5f6;
+}
+
+.mission-item__two {
+	background: #ffeeee;
+}
+
+.mission-item__three {
+	background: #fff4d6;
 }
