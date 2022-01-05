@@ -5,9 +5,6 @@
 }
 
 body {
-	border: 1px solid red;
-	width: 960px;
-	margin: 0 auto;
 	font-family: "Poppins", sans-serif;
 	font-size: 18px;
 	line-height: 28px;
@@ -18,12 +15,22 @@ font-family: 'Yeseva One', cursive; */
 
 /* Reusable */
 
+.container {
+	border: 1px solid red;
+	width: 960px;
+	margin: 0 auto;
+}
+
 img {
 	width: 100%;
 }
 
 .mission-color-light {
 	color: #ffad5a;
+}
+
+.mission-color-red {
+	color: #ff5959;
 }
 
 .btn-red {
@@ -209,4 +216,26 @@ img {
 
 .community-text p {
 	text-align: justify;
+}
+
+/* Footer Section */
+footer {
+	padding: 50px 0;
+	background: #0b0d17;
+}
+
+footer h2 {
+	font-size: 36px;
+	font-family: Lobster;
+	font-weight: 400;
+	letter-spacing: 0.5px;
+	color: #fff;
+	margin-bottom: 10px;
+}
+
+footer p {
+	font-family: Manrope;
+	font-size: 14px;
+	line-height: 24px;
+	color: #d9dbe1;
 }
