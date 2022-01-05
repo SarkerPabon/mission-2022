@@ -172,3 +172,41 @@ img {
 .develop-text p {
 	text-align: justify;
 }
+
+/* Community Section */
+
+#community {
+	padding: 0 65px;
+	padding-bottom: 100px;
+	background-image: url("./images/shapes/shape-1.png");
+	background-repeat: no-repeat;
+	background-position: right 245px;
+	background-size: 20%;
+}
+
+.community-image {
+	border-radius: 10px;
+	margin-top: 30px;
+}
+
+.community-image img {
+	width: 100%;
+}
+
+.community-text {
+	padding-right: 40px;
+	padding-top: 20px;
+	margin-top: 20px;
+}
+
+.community-text h2 {
+	font-family: inherit;
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 1.2;
+	margin-bottom: 10px;
+}
+
+.community-text p {
+	text-align: justify;
+}
