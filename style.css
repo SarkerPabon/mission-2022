@@ -8,17 +8,18 @@ body {
 	font-family: "Poppins", sans-serif;
 	font-size: 18px;
 	line-height: 28px;
-	/* 	font-family: 'Lobster', cursive;
-font-family: 'Manrope', sans-serif;
-font-family: 'Yeseva One', cursive; */
 }
 
 /* Reusable */
 
 .container {
-	border: 1px solid red;
-	width: 960px;
+	/* border: 1px solid red; */
+	width: 980px;
 	margin: 0 auto;
+}
+
+.container-fluid {
+	width: 1400px;
 }
 
 img {
@@ -72,7 +73,7 @@ img {
 .welcome-text h1 {
 	margin-top: 100px;
 	font-family: "Yeseva One", cursive;
-	font-size: 60px;
+	font-size: 55px;
 	line-height: 80px;
 	font-weight: normal;
 	border-left: 5px solid #ff5959;
@@ -216,6 +217,61 @@ img {
 
 .community-text p {
 	text-align: justify;
+}
+
+/* Own Section */
+#own-section h2 {
+	font-size: 48px;
+	font-family: inherit;
+	font-style: bold;
+	line-height: 74px;
+}
+
+#own-section .common-section {
+	margin-top: 10px;
+}
+
+#own-section h2 {
+	margin-bottom: 40px;
+}
+
+.own-section__map {
+	width: 50%;
+	padding-left: 30px;
+}
+
+.own-section__map iframe {
+	width: 90%;
+	height: 100%;
+	margin-right: 10px;
+}
+
+.own-section__form {
+	width: 50%;
+	padding-right: 5px;
+}
+
+.own-section__form .form-group {
+	margin-bottom: 10px;
+}
+
+.own-section__form label {
+	display: block;
+	padding-bottom: 5px;
+}
+
+.own-section__form input,
+.own-section__form email,
+.own-section__form textarea {
+	width: 100%;
+	padding: 12px;
+	outline: none;
+	border: 1px solid #ccc;
+	resize: vertical;
+}
+
+.own-section__form textarea {
+	padding: 50px;
 }
 
 /* Footer Section */
